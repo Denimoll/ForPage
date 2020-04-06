@@ -64,7 +64,7 @@ $(document).ready(function(){
     let col = document.getElementById("countColumns").value,
         row = document.getElementById("countRows").value;
     if (col > 0 && row > 0){
-        let address = "table.html?col=" + String(col) + "#row=" + String(row);
+        let address = "Table.html?col=" + String(col) + "#row=" + String(row);
         window.open(address);
         forma.reset();
     } else{
